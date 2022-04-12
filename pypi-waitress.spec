@@ -4,7 +4,7 @@
 #
 Name     : pypi-waitress
 Version  : 2.1.1
-Release  : 83
+Release  : 84
 URL      : https://files.pythonhosted.org/packages/f5/f7/e258a76818a9c83d7ef3b89377231b1ea1e9e5f06f70561a3115d07f73de/waitress-2.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f5/f7/e258a76818a9c83d7ef3b89377231b1ea1e9e5f06f70561a3115d07f73de/waitress-2.1.1.tar.gz
 Summary  : Waitress WSGI server
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1647529580
+export SOURCE_DATE_EPOCH=1649794094
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
