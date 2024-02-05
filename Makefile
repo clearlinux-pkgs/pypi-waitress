@@ -1,5 +1,5 @@
 PKG_NAME := pypi-waitress
-URL = https://files.pythonhosted.org/packages/72/83/c3de9799e2305898b02ea67bcd125ad06f271e2a82cc86fe66b7bf4e6f63/waitress-2.1.2.tar.gz
+URL = https://files.pythonhosted.org/packages/70/34/cb77e5249c433eb177a11ab7425056b32d3b57855377fa1e38b397412859/waitress-3.0.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

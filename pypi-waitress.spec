@@ -6,10 +6,10 @@
 # autospec commit: 750e50d
 #
 Name     : pypi-waitress
-Version  : 2.1.2
-Release  : 96
-URL      : https://files.pythonhosted.org/packages/72/83/c3de9799e2305898b02ea67bcd125ad06f271e2a82cc86fe66b7bf4e6f63/waitress-2.1.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/72/83/c3de9799e2305898b02ea67bcd125ad06f271e2a82cc86fe66b7bf4e6f63/waitress-2.1.2.tar.gz
+Version  : 3.0.0
+Release  : 97
+URL      : https://files.pythonhosted.org/packages/70/34/cb77e5249c433eb177a11ab7425056b32d3b57855377fa1e38b397412859/waitress-3.0.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/70/34/cb77e5249c433eb177a11ab7425056b32d3b57855377fa1e38b397412859/waitress-3.0.0.tar.gz
 Summary  : Waitress WSGI server
 Group    : Development/Tools
 License  : ZPL-2.1
@@ -72,10 +72,10 @@ python3 components for the pypi-waitress package.
 
 
 %prep
-%setup -q -n waitress-2.1.2
-cd %{_builddir}/waitress-2.1.2
+%setup -q -n waitress-3.0.0
+cd %{_builddir}/waitress-3.0.0
 pushd ..
-cp -a waitress-2.1.2 buildavx2
+cp -a waitress-3.0.0 buildavx2
 popd
 
 %build
@@ -83,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1707148131
+export SOURCE_DATE_EPOCH=1707150208
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
