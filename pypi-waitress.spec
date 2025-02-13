@@ -7,7 +7,7 @@
 #
 Name     : pypi-waitress
 Version  : 3.0.2
-Release  : 100
+Release  : 101
 URL      : https://files.pythonhosted.org/packages/bf/cb/04ddb054f45faa306a230769e868c28b8065ea196891f09004ebace5b184/waitress-3.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/cb/04ddb054f45faa306a230769e868c28b8065ea196891f09004ebace5b184/waitress-3.0.2.tar.gz
 Summary  : Waitress WSGI server
